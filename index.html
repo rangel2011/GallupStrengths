@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+    <title> My Portfolio </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://kit.fontawesome.com/600cc26551.js" crossorigin="anonymous"></script>
+</html>
+
+<!-- Inline CSS -->
+
+    <style>
+/* Sets the font of the website to "Montserrat" and sans-serif as a backup */
+        body,h1,h2,h3,h4,h5,h6{
+        font-family: "Montserrat", sans-serif;
+    }
+
+/* Add a padding */
+    .w3-row-padding img {
+        margin-bottom: 12px;
+    }
+
+/* Sets the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: #222;
+    }
+
+/* Adds a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px;
+    }
+
+/* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0;
+        }
+    }
+</style>
+
+<body class="w3-black">
+
+<!-- Icon Bar (hidden on smaller screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar Image that is in the top left corner -->
+    <img src="https://avatars.githubusercontent.com/u/93567066?v=4" style="width:100%">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fas fa-home w3-xxlarge"></i>
+                <p>HOME</p>
+         </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fas fa-user w3-xxlarge"></i>
+                <p>ABOUT</p>
+        </a>
+        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fas fa-laptop-code w3-xxlarge"></i>
+            <p>PROJECTS</p>
+        </a>
+        <a href="https://www.fromteachertotechstudent.com" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="far fa-keyboard w3-xxlarge"></i>
+            <p>BLOG</p>
+        </a>
+
+</nav>
+
+<!-- Navbar on smaller screens. Makes it hidden on medium and large screens -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavBar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+        <a href="#blog" class="w3-bar-item w3-button" style="width:25% !important">BLOG</a>
+    </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Header -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Chris Rangel</h1>
+        <p>Professional Educator and Software Engineer in the making</p>
+        <img src="https://i.postimg.cc/Xqsjr0PD/Beach-Black-and-White.jpg" alt="Me at the beach" class="w3-image" width="992" height="1108">
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-gray">Chris Rangel</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>Hi! Welcome to my Portfolio Page. This website will be a living website because I will continually update it as I grow as a Developer. I am currently in the learning process still with coding and have learned enough Font End Development to get this page created. I am excited for how much I have learned so far in the last few months on my own, but even more excited for how much better I will become with the practice and connections that I make as I break into this field.  
+            <br>
+            <br>
+        I also have a Personal Blog <a href="https://www.fromteachertotechstudent.com" target="_blank">fromteachertotechstudent</a> that documents my process of learning. I am starting to learn that "imposter syndrome" is a very real thing. On my blog, I discuss more of my personal journey into coding and the things I am starting to find out about me and my past.
+            <br>
+            <br>
+        Both my Portfolio and Blog are going to document my learning process. I know that this is a pivot in my career, and it will be challenging. I want to eventually end up in Education Technology and work on software to utilize my knowledge of learning theories, principles, and methodologies to help students nationally. My path might not be the most traditional, but I have never been known to back down when something is challenging for me.
+        </p>
+        
+        <h3 class="w3-padding-16 w3-text-light-gray">My Clifton Strenghts</h3>
+        <hr style="width:200px" class="w3-opacity">
+        <ol>
+            <li style="font-size:18px;">Achiever</li>
+            <p> This is an <em>Executing</em> trait that happens to be my top strength, which is how I make things happen. I work hard and possess a great deal of stamina to complete projects. I take immense satisfaction in being busy and productive. I succeed because I have a natural source of energy that motivates me to work hard and get things done.</p>
+            <li style="font-size:18px;">Relator</li>
+            <p> This is how I <em>Build Relationships</em> with others. I find success in teams by building bridges of common interests. I can naturally form genuine and rewarding one-on-one relationships with others. This authenticity allows long-lasting connections that foster trust and confidence with those I have worked with.</p>
+            <li style="font-size:18px;">Input</li>
+            <p> This is one of my top <em>Strategic Thinking</em> skills. I have a thirst for seeking new knowledge. This natural thirst leads to me making credible and well-informed decisions for teams by looking at trends within data. I also have been called a "Human Google" before by colleagues because of the amount of knowledge I possess in my field, along with other areas.</p>
+            <li style="font-size:18px;">Strategic</li>
+            <p> Another one of my <em>Strategic Thinking</em> skills. I have a gift for quickly weighing alternative paths and determing the best one to take. This leads to me being able to anticipate, play out, and plan ahead. Effectively making me an agile decision-maker.</p>
+            <li style="font-size:18px;">Learner</li>
+            <p>The last but also favorite of my top <em>Strategic Thinking</em> skills. I have a strong desire to want to learn and continually improve. I enjoy the process of learning and asking questions to gain new knowledge. I have a natural ability to to pick up and absorb further information quickly.</p>
+
+        </ol>
+    </div>
+
+    <!-- Project Section -->
+        <div class="w3-padding-64 w3-content" id="projects">
+            <h2 class="w3-text-light-grey">My Projects</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <a href="https://www.fromteachertotechstudent.com" target="_blank" style="font-size: 22px;" >Blog</a>
+                <p class="w3-text-grey"> My first project that I did was setting a blog that was going to document my process in learning code along with the ups and downs that is going to happen on this journey. I learned how to set up hosting though bluehost in the process, along with starting to understand Search Engine Optimization(SEO) rules along with Readability rules.</p> 
+            <br>
+            <a href="https://rangel2011.github.io/TributePage/" target="_blank" style="font-size: 22px;" >Tribute Page</a>
+                <p class="w3-text-grey"> The next project that I worked on was a Tribute Page though FreeCodeCamp. Through that process, I was able to get an understanding of HTML and CSS syntax.</p>
+
+        </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a>
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>
